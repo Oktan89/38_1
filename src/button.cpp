@@ -23,7 +23,7 @@ winButton::winButton(QWidget *parent) : QPushButton(parent)
 
 void winButton::paintEvent(QPaintEvent *e)
 {
-     Q_UNUSED(e)
+   
     QPainter p(this);
     p.drawPixmap(e->rect(), mCurrentButtonPixmap); 
 }
